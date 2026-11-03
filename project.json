@@ -1,13 +1,23 @@
 {
   "schema_version": 1,
-  "status": "idea",
-  "tags": [],
-  "languages": null,
+  "status": "live",
+  "tags": [
+    "android",
+    "ai",
+    "agents",
+    "linux"
+  ],
+  "languages": [
+    "HTML",
+    "CSS",
+    "Python",
+    "JavaScript"
+  ],
   "public": {
     "listed": true,
     "featured": true,
     "rank": 1100,
-    "website": null
+    "website": "https://jasiri.benlester.me"
   },
   "reviewed_at": "2026-11-03"
 }
