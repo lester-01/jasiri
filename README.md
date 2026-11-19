@@ -5,7 +5,7 @@
 <h1 align="center">Jasiri</h1>
 
 <p align="center"><strong>Put your phone to work.</strong><br>
-A pocket computer, with an integrated AI assistant.</p>
+A pocket computer for Android, with an AI assistant built in.</p>
 
 <p align="center">
   <a href="https://jasiri.benlester.me">Website</a> ·
@@ -16,7 +16,7 @@ A pocket computer, with an integrated AI assistant.</p>
 
 ---
 
-Jasiri is a pocket computer for Android with an integrated AI assistant. The AI assistant is built into the Linux system on the phone. It uses the same files and the same programs as the terminal. You can also open the terminal and do the work yourself. One app.
+Jasiri is a pocket computer for Android, with an AI assistant built in. The AI assistant is built into the Linux system on the phone. It uses the same files and the same programs as the terminal. You can also open the terminal and do the work yourself. One app.
 
 ## Install
 

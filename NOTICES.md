@@ -24,7 +24,7 @@ Termux is a trademark of its owners. Jasiri is an independent product and is not
 
 ## Website fonts
 
-Bricolage Grotesque, Instrument Sans, and JetBrains Mono, under the SIL Open Font License 1.1. The license texts are in [`assets/fonts`](assets/fonts).
+Inter, Newsreader, and JetBrains Mono, under the SIL Open Font License 1.1. The license texts are in [`assets/fonts`](assets/fonts).
 
 ## Trademarks
 
