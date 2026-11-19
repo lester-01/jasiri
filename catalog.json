@@ -4,8 +4,11 @@
       "id": "linux-home",
       "kind": "skill",
       "title": "Linux home",
-      "summary": "Tells the AI assistant where this chat's folder is, and not to guess when you skip a question. Already in Jasiri.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "summary": "Tells the AI assistant where the project's files are, and not to guess when you skip a question. Already in Jasiri.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "available"
     },
@@ -14,7 +17,34 @@
       "kind": "skill",
       "title": "Write an automation",
       "summary": "Instructions for saving a task the chat can run on a schedule. Already in Jasiri.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
+      "access": "free",
+      "status": "available"
+    },
+    {
+      "id": "scheduled-tasks",
+      "kind": "automation",
+      "title": "Run a task on a schedule",
+      "summary": "A saved task that runs on a timer you turn on. Add one in the Library, or ask the AI assistant to write one and then switch the timer on yourself. Already in Jasiri.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
+      "access": "free",
+      "status": "available"
+    },
+    {
+      "id": "local-models",
+      "kind": "model",
+      "title": "Models on this phone",
+      "summary": "Download a small model and run it on the phone, with no key and no connection. Jasiri shows whether a model fits your phone's memory first. This is experimental: small models suit short questions and simple tasks, and struggle with long or complicated ones. Already in Jasiri.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "available"
     },
@@ -23,7 +53,10 @@
       "kind": "plugin",
       "title": "Find anything by describing it",
       "summary": "Search photos, videos, and documents on your phone in plain language, like “the receipt from the plumber in March”. Not in the app yet. Today you can attach one photo in a chat, when the model can see images.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -31,8 +64,11 @@
       "id": "media-tagger",
       "kind": "plugin",
       "title": "Media tagger and organizer",
-      "summary": "Sort photos and recordings by project or course, then search them. Not in the app yet. Files you save in a chat folder stay in that folder.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "summary": "Sort photos and recordings by project or course, then search them. Not in the app yet. Files you save in a project stay in that project's folder.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -40,8 +76,11 @@
       "id": "file-manager",
       "kind": "plugin",
       "title": "AI-aware file manager",
-      "summary": "A file manager the AI assistant can work with, while you stay in control. Not in the app yet. The AI assistant can already read and write files in the chat's folder.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "summary": "A file manager the AI assistant can work with, while you stay in control. Not in the app yet. The AI assistant can already read and write files in the project's folder.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -49,8 +88,11 @@
       "id": "notes",
       "kind": "plugin",
       "title": "Notes and to-dos, Obsidian compatible",
-      "summary": "Plain Markdown notes that follow you from one device to another. Not in the app yet. Each chat already has a folder of files on this phone.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "summary": "Plain Markdown notes that follow you from one device to another. Not in the app yet. Each project already has a folder of files on this phone.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -59,7 +101,10 @@
       "kind": "plugin",
       "title": "Video transcoder",
       "summary": "Shrink a large video and keep it watchable. Not in the app yet.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -67,8 +112,11 @@
       "id": "backups",
       "kind": "plugin",
       "title": "Backups",
-      "summary": "Copy the folders you choose to a place you choose, on a schedule. Not in the app yet. You can already copy a chat's folder out yourself.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "summary": "Copy the folders you choose to a place you choose, on a schedule. Not in the app yet. Today the app keeps the old copy when an update moves your data, and it can export your data.",
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     },
@@ -77,16 +125,10 @@
       "kind": "plugin",
       "title": "Learning labs",
       "summary": "Programming, Linux, and networking practice, installed from one button. Not in the app yet. You can already practice on the Linux system, from the AI assistant or the terminal.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
-      "access": "free",
-      "status": "coming-soon"
-    },
-    {
-      "id": "local-models",
-      "kind": "plugin",
-      "title": "Local AI models",
-      "summary": "Run a smaller model on the phone for a job that does not need a large one. Not in the app yet. Today the AI assistant uses the provider you choose.",
-      "owner": { "name": "Jasiri", "url": "https://jasiri.benlester.me" },
+      "owner": {
+        "name": "Jasiri",
+        "url": "https://jasiri.benlester.me"
+      },
       "access": "free",
       "status": "coming-soon"
     }

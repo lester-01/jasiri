@@ -31,7 +31,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-TITLE = "Jasiri for Android: A pocket computer, with an integrated AI assistant."
+TITLE = "Jasiri for Android: A pocket computer with an AI assistant built in"
 
 
 def about_mb(nbytes):
