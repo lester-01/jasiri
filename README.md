@@ -20,9 +20,9 @@ Jasiri is a pocket computer for Android with an integrated AI assistant. The AI 
 
 ## Install
 
-Version: 0.21.0
-Download size: about 55 MB
-SHA-256: `06a15a05be8d0dfb61e7e8118073866e5f539439a77894ae6db9c1b4d3a5a6e2`
+Version: 0.22.0
+Download size: about 95 MB
+SHA-256: `3d8f244daf40b637bd2375b9cefccd441244b3155f35a7b8e435d7bcc8b5f642`
 
 1. Download the APK from the [latest release](https://github.com/lester-01/jasiri/releases/latest) or the link above.
    - Android 8 or later, on a 64-bit phone
