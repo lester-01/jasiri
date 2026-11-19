@@ -102,7 +102,7 @@
         if (paused) video.pause(); else video.play().catch(function () {});
         label();
       });
-      box.appendChild(button);
+      box.parentNode.appendChild(button);
       video.play().catch(function () { paused = true; label(); });
     };
     start();

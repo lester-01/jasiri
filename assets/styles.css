@@ -62,7 +62,7 @@ p{margin:0 0 1em}
 .top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;gap:18px;height:68px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font:500 1.45rem/1 var(--display);min-height:44px}
-.brand img{width:34px;height:34px;border-radius:9px}
+.brand img{width:34px;height:34px;border-radius:9px;outline:1px solid var(--line);outline-offset:-1px}
 .menu{display:none;align-items:center;min-height:44px;padding:0 1rem;background:transparent;color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;font:600 .92rem/1 var(--body);cursor:pointer}
 .top nav{display:flex;gap:8px 22px;margin-left:auto;font-size:.97rem}
 .top nav a{text-decoration:none;color:var(--muted);min-height:44px;display:inline-flex;align-items:center;padding:0 2px;border-bottom:2px solid transparent}
@@ -86,7 +86,7 @@ p{margin:0 0 1em}
 .cta{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 18px}
 .fine{font-size:.92rem;color:var(--muted);margin:0 0 .6em}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--ok);margin-right:.5rem;vertical-align:middle}
-.narrow{max-width:46rem}
+.narrow{max-width:none}
 code{font:500 .9em var(--mono)}
 .band code,.prose code{background:var(--bg);padding:.1em .35em;border-radius:5px}
 
@@ -101,8 +101,8 @@ code{font:500 .9em var(--mono)}
 .vwrap picture,.vwrap img{position:absolute;inset:0;width:100%;height:100%}
 .vwrap video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .4s}
 .vwrap video.on{opacity:1}
-.vbtn{position:absolute;right:12px;bottom:12px;z-index:2;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:0 1rem;border:0;border-radius:999px;background:var(--ink);color:var(--bg);font:600 .9rem/1 var(--body);cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.35)}
-.vbtn:hover{background:var(--accent);color:var(--on-accent)}
+.vbtn{display:flex;align-items:center;gap:.5rem;min-height:44px;margin:16px auto 0;padding:0 1.1rem;border:1.5px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);font:600 .9rem/1 var(--body);cursor:pointer}
+.vbtn:hover{background:color-mix(in srgb,var(--ink) 8%,transparent)}
 .vbtn svg{width:14px;height:14px;fill:currentColor}
 .vbtn[hidden]{display:none}
 .vnote{margin:14px 0 0;font-size:.9rem;color:var(--muted);text-align:center}
@@ -122,10 +122,10 @@ h3{font-size:1.5rem}
 
 /* use cases */
 .cases{display:grid;grid-template-columns:1fr 1fr;gap:28px}
-.wcard{display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.wcard{display:grid;grid-template-columns:190px 1fr;gap:24px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
 .wcard .shot{box-shadow:none;border-radius:18px}
 .wcard h3{font-size:1.4rem}
-.wcard.wide{grid-column:1/-1}
+.wcard.wide{grid-column:1/-1;align-items:center}
 .tcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
 .tcard h3{font-size:1.4rem}
 .split{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
@@ -167,6 +167,7 @@ h3{font-size:1.5rem}
 .install p{color:var(--muted);margin:0}
 .after{margin-top:28px;color:var(--muted)}
 .dl-box{margin-top:36px;display:flex;flex-wrap:wrap;gap:18px 28px;align-items:center;padding:24px 28px;background:var(--band);border-radius:var(--radius)}
+.band .dl-box{background:var(--bg)}
 .dl-box code{font:500 .8rem/1.5 var(--mono);word-break:break-all;color:var(--muted);background:none;padding:0}
 
 /* coming */
