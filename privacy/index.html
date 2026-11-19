@@ -46,13 +46,13 @@
   <section class="page-hero"><div class="wrap"><h1>Privacy</h1></div></section>
   <div class="wrap"><div class="prose">
 
-<p class="meta">Last updated 19 October 2026</p>
-<p>The short version: Jasiri has no account, no ads, and no analytics. Your chat folders stay on your phone. The messages you send the AI assistant go to the AI provider you choose, and nowhere else.</p>
+<p class="meta">Last updated [DATE OF PUBLISH]. This version applies from Jasiri [VERSION] (0.23.0 or the release that adds crash reports and usage numbers). Earlier versions collect nothing, as the previous version of this page said.</p>
+<p>The short version: Jasiri has no account and no ads. Your chats and files stay on your phone. The messages you send the AI assistant go to the AI provider you choose. From [VERSION], Jasiri also sends crash reports and basic usage numbers to Google Firebase, and you have to agree to that to use the app. Details are below.</p>
 
 <h2>What stays on your phone</h2>
 <ul>
 <li>The Linux system, your chat folders, and everything the AI assistant writes. A chat folder is where that conversation&rsquo;s files live.</li>
-<li>Your AI API key, and any SSH keys you create. Jasiri opts out of Android backups, so those keys are not copied to the cloud by that backup.</li>
+<li>Your AI API key, your MCP tokens, your automation secrets, and any SSH keys you create. Jasiri stores keys sealed with your phone&rsquo;s secure storage and opts out of Android backups, so they are not copied to the cloud by that backup.</li>
 <li>Uninstalling Jasiri removes all of it.</li>
 </ul>
 
@@ -60,10 +60,20 @@
 <p>When you ask the AI assistant for something, Jasiri sends your message, any attachments, and the output of commands the AI assistant runs to the service you configured. That can be OpenRouter, OpenAI, or another compatible service, using the AI API key you pasted. That provider handles it under its own terms and privacy policy. Choose a provider you trust. Ben Lester does not operate that service and does not receive a copy.</p>
 
 <h2>What Jasiri collects</h2>
-<p>Nothing about you. There are no accounts, no advertising identifiers, no analytics, and no crash reporting in the current version.</p>
+<p>From [VERSION], Jasiri collects crash reports and basic usage numbers so that Ben Lester can find and fix problems and see how the app is used. You have to agree to this on first run to use the app.</p>
+<ul>
+<li><strong>Crash reports.</strong> When the app crashes or stops responding: the type of error, where in the code it happened, and the technical error text from the app, plus the app version, Android version, phone model, memory and battery state. The error text can, on rare occasions, include a fragment of a file name or of text the app was handling. Jasiri masks keys and tokens in it before it is sent.</li>
+<li><strong>Usage numbers.</strong> Standard Google Firebase Analytics data: sessions, app version, phone model and Android version, language, and the approximate country and city that Google works out from your internet connection (not GPS). Also a few events the app records: onboarding finished, a first message sent (never its text), which kind of AI provider you use (cloud, local or custom, never its name or address), a project or automation created, which kind of tool is used (counts only), a local model started (never its name), the result of the data update, and whether you saw and accepted an update prompt.</li>
+<li><strong>A random ID.</strong> Firebase gives each install a random app-instance ID. It is not your advertising ID, it is not linked to your name or email, and it changes if you reinstall.</li>
+</ul>
+<p><strong>Who handles it.</strong> Google processes this for Ben Lester through Firebase Crashlytics and Firebase Analytics, in a Firebase project that belongs to Jasiri. Analytics event data is kept for up to 14 months. See <a href="https://policies.google.com/privacy">Google&rsquo;s privacy policy</a> and <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
+<p><strong>What is not collected.</strong> Your chat text and prompts, your files, your keys and tokens, your contacts, your precise location, and any advertising ID. Jasiri has no ads, does not use this data for advertising, and does not track you across other apps. The Firebase software is Google&rsquo;s proprietary software.</p>
+<p><strong>Your choice.</strong> The app cannot be used without agreeing. If you do not agree, the app offers to export your data to a place you choose, and then closes. You can uninstall at any time. Your agreement is asked for again if what Jasiri collects changes.</p>
+<p><strong>Deleting it.</strong> The data is not tied to your name or email. If you want your crash and usage data deleted, write to the address below. Because it is tied only to the random app-instance ID, we may need that ID from you to find it. [Owner: decide whether Settings, Privacy should show the ID.]</p>
 
 <h2>Network requests Jasiri makes</h2>
 <ul>
+<li><strong>Crash reports and usage numbers</strong> to Google Firebase, after you agree, as described above.</li>
 <li><strong>Update check.</strong> When you open the app, it reads a small public file on this website to learn the latest version. The file is the same for everyone. Like any web request, your IP address is visible to the host (GitHub Pages and Cloudflare) in their ordinary logs.</li>
 <li><strong>Your AI provider</strong>, as described above.</li>
 <li><strong>Package downloads.</strong> When you or the AI assistant install software, Jasiri downloads packages over HTTPS from the package servers for its Linux system.</li>
@@ -74,7 +84,7 @@
 <p>This site sets no cookies and runs no analytics. Fonts are served from this site, not from a third party. The site is hosted on GitHub Pages, and downloads are served from GitHub Releases through a Cloudflare redirect. Those services keep their own standard logs.</p>
 
 <h2>If this changes</h2>
-<p>If Jasiri ever collects diagnostics or usage data, it will be opt-in, it will never include your prompts, files, or keys, and this page will say so before that change ships. An email list for launch news is planned for later. This site does not collect addresses yet. If a list launches, this page will say what is stored and how to leave it.</p>
+<p>If Jasiri starts to collect anything more, this page will say so before the change ships, and the app will ask again. Anything optional will be a separate switch on the same screen as the agreement. It will not include your prompts, files, or keys. An email list for launch news is planned for later. This site does not collect addresses yet. If a list launches, this page will say what is stored and how to leave it.</p>
 
 <h2>Children</h2>
 <p>Jasiri is not designed for children.</p>
