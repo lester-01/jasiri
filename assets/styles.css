@@ -272,3 +272,7 @@ footer .legal p{margin:0;font-size:.85rem}
   html{scroll-behavior:auto}
   .btn,.vwrap video,summary::after{transition:none}
 }
+
+.open-note{max-width:70ch;margin:28px 0 0;color:var(--fg)}
+.open-note strong{font-family:var(--display)}
+.gate .h3-sub{margin-top:1.2em}
