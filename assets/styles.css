@@ -276,3 +276,19 @@ footer .legal p{margin:0;font-size:.85rem}
 .open-note{max-width:70ch;margin:28px 0 0;color:var(--fg)}
 .open-note strong{font-family:var(--display)}
 .gate .h3-sub{margin-top:1.2em}
+
+/* Features page head and the project video card (2026-11 redesign) */
+.feat-hero{padding:56px 0 24px}
+.feat-hero .wrap{grid-template-columns:1fr}
+.feat-hero h1{font-size:clamp(2.4rem,6vw,4rem)}
+.vcol{width:190px;display:flex;flex-direction:column;align-items:center}
+.vcol .shot{width:100%}
+.vcol .vbtn{margin-top:12px}
+@media (max-width:760px){.vcol{width:200px}}
+@media (max-width:760px){
+  .swipe{display:flex!important;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 14px;margin:0 -20px;scrollbar-width:none}
+  .swipe::-webkit-scrollbar{display:none}
+  .swipe>*{flex:0 0 78%;scroll-snap-align:center}
+  .swipe:focus-visible{outline:2px solid var(--accent,#bf4a14);outline-offset:-2px}
+  .swipe .wcard.wide{grid-column:auto}
+}

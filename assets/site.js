@@ -62,8 +62,8 @@
 
   /* Looping demo video: muted, with a pause button. Without JavaScript, or when the visitor
      prefers reduced motion, the still image stays and no video is loaded. */
-  var box = document.querySelector("[data-video]");
-  if (box && window.matchMedia) {
+  Array.prototype.forEach.call(document.querySelectorAll("[data-video]"), function (box) {
+  if (window.matchMedia) {
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
     var dark = window.matchMedia("(prefers-color-scheme: dark)");
     var video = null, button = null, paused = false;
@@ -109,5 +109,6 @@
     var again = function () { start(); };
     if (reduce.addEventListener) { reduce.addEventListener("change", again); dark.addEventListener("change", again); }
   }
+  });
 
 })();
