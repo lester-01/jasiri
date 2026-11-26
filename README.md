@@ -27,7 +27,7 @@ Download size: about 99 MB
 SHA-256: `2f63ac00821b9fd9950daf6ae6eadf9e347463f0e868e802418af07e9949908f`
 
 1. Download the APK from the [latest release](https://github.com/lester-01/jasiri/releases/latest) or the link above.
-   - Android 8 or later, on a 64-bit phone
+   - Android 8 or later, on a 64-bit ARM64 phone, or an x86_64 Android device or emulator on a PC
    - Jasiri does not need a rooted phone
 2. Open it and allow the install when Android asks.
 3. Open Jasiri, add an AI API key from OpenRouter, OpenAI, or another compatible service, and ask for something. That service may charge you.
