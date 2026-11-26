@@ -18,6 +18,8 @@ A pocket computer for Android, with an AI assistant built in.</p>
 
 Jasiri is a pocket computer for Android, with an AI assistant built in. The AI assistant is built into the Linux system on the phone. It uses the same files and the same programs as the terminal. You can also open the terminal and do the work yourself. One app.
 
+**Jasiri is closed source.** This repository holds the website and the release downloads, not the app code.
+
 ## Install
 
 Version: 0.23.2
@@ -76,7 +78,7 @@ Bugs, ideas, and plugin requests are welcome through [issues](https://github.com
 
 ## About this repository
 
-This repository hosts the website at [jasiri.benlester.me](https://jasiri.benlester.me) and the release downloads. It does not contain the app's source code.
+This repository hosts the website at [jasiri.benlester.me](https://jasiri.benlester.me) and the release downloads. It does not contain the app's source code. The languages GitHub shows for this repository (HTML, CSS, Python, JavaScript) describe the website and its scripts, not the app.
 
 `policy.json` is read by installed copies of the app to check for updates. Please do not move or rename it. Compare a download with the version, size, and SHA-256 in the sections above.
 
