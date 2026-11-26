@@ -74,7 +74,7 @@ The core is free to install and use, including for work. It may not be resold or
 
 ## Feedback
 
-Bugs, ideas, and plugin requests are welcome through [issues](https://github.com/lester-01/jasiri/issues) or at [contact@benlester.me](mailto:contact@benlester.me).
+Bugs, ideas, and plugin requests are welcome through [issues](https://github.com/lester-01/jasiri/issues) or through the contact details on [benlester.me](https://benlester.me).
 
 ## About this repository
 
