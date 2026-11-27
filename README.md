@@ -85,3 +85,14 @@ This repository hosts the website at [jasiri.benlester.me](https://jasiri.benles
 ---
 
 Built by [Ben Lester](https://benlester.me), a software and systems engineer available for new projects.
+
+## llms.txt
+
+`llms.txt` is the plain-text summary AI assistants read. It is generated from `index.html`, so it never says anything the home page does not. After you change the home page, run:
+
+```
+python3 scripts/build-llms-txt.py          # rewrite llms.txt
+python3 scripts/build-llms-txt.py --check  # exit 1 if it is out of date
+```
+
+It leaves out version numbers and file sizes on purpose; those live on the home page and the Check page.

@@ -1,0 +1,62 @@
+# Jasiri
+
+> Jasiri is a real Linux computer on your Android phone, with an AI assistant built in. You choose the AI. You set the rules. No root needed. Free to download.
+
+Jasiri for Android: A pocket computer with an AI assistant built in. Put your phone to work.
+
+- Site: https://jasiri.benlester.me/
+- Features: https://jasiri.benlester.me/features/
+- Marketplace: https://jasiri.benlester.me/marketplace/
+- Check the APK (SHA-256, signing fingerprint, scan report): https://jasiri.benlester.me/check/
+- Privacy: https://jasiri.benlester.me/privacy/
+- Terms and license: https://jasiri.benlester.me/terms/
+- Linux packages for Jasiri: https://apt.benlester.me (repository details: https://github.com/lester-01/jasiri-apt)
+- Built by Ben Lester: https://benlester.me
+- More projects: https://projects.benlester.me
+
+## What it does and how to start
+
+- Ask: Say what you want in plain words. Add a photo or a file if it helps. The assistant shows every step as it goes.
+- Approve: Before anything risky, it stops and asks. You can switch each power on or off.
+- Keep it: What it makes is real files on your phone. Open the terminal and they are all there.
+- A website from a sentence: Describe a page, a script or a small tool. The assistant writes it, runs it and shows you the result.
+- A spreadsheet from a mess: Hand it a rough list, or a picture of a receipt, and ask for a tidy file. Reading a photo needs an AI model that can see images.
+- The web, read for you: It can open a page and read it, in a window you can watch or quietly in the background.
+- A job that runs by itself: Save a task and pick a time. It runs every morning, with no one at the phone.
+- One project for each job: Chats and files for one job stay together. Move a chat into a project, and undo it if you change your mind.
+- Free to use: The core is free, including at work. No account and no ads.
+- You choose the AI: Use your own key with OpenRouter, OpenAI or another compatible service, or run a small model on the phone.
+- It asks first: Risky commands wait for your yes. Photos, the microphone and other apps stay off until you allow them.
+- Download: Tap the button on your phone.
+- Allow the install: Open the file. Android asks whether your browser may install apps. Allow it once.
+- Add your AI key: Paste an AI key from OpenRouter or another compatible service. A key is like a password you get from that service. Then ask for something. The first launch sets up the Linux system.
+
+## Questions and answers
+
+### Is it free?
+
+The core is free to install and use, including for work. The terms say what that allows.
+
+### Do I need an AI API key?
+
+Yes, for a cloud AI. You bring a key from OpenRouter, OpenAI or another compatible service. That service may charge you. You can also run a small model on the phone, which needs no key but is experimental and limited.
+
+### Which phones does it run on?
+
+Android 8 or later, on a 64-bit ARM64 phone, or on an x86_64 Android device or emulator on a PC. No root needed. A recent phone is more comfortable for longer jobs, and local models need memory.
+
+### Is it safe to install from outside Google Play?
+
+Jasiri is signed with one key that stays the same from version to version. The Check page shows the file’s SHA-256, the signing fingerprint and a VirusTotal report, so you can confirm that what you downloaded is what was published.
+
+### Why isn’t Jasiri on Google Play yet?
+
+Jasiri is a full computer on your phone, and a few of the things it can do, such as controlling other apps on your screen or installing an app file, are not allowed in apps on Google Play. This site gives you the full version, with nothing left out. A Google Play version will come later, with those few abilities removed. If you want everything now, use this site’s version. If you would rather have Play handle updates, the Play version is the one to wait for.
+
+### Can the AI delete my files?
+
+It can, like any program you let run. Jasiri asks before risky commands, and files removed with the usual delete command go to a recycle bin for 30 days. Some ways of deleting from a program skip the bin, and that is one reason it asks first. Keep copies of what matters.
+
+### Where does my data go?
+
+Your messages and attachments go to the AI service you picked, under its terms. Your files stay on your phone. Jasiri also sends crash reports and basic usage numbers to Google Firebase, which the app asks you to agree to when you first open it. They hold no chat text, files or keys; a crash report can occasionally include a fragment of technical error text. If you would rather not agree, you can export your data and leave. The Privacy page has the details.
